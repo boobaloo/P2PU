@@ -1,10 +1,13 @@
-#To update github page CD to folder of Github page and type these commands in the terminal
+#To update github page cd to folder of Github page and type these commands in the terminal
 git add .
 git push -u origin master
 git commit -m "base"
 git push
+
 #To remove files from Github after local deletion
 git add . -A
 git commit -m "removed some files"
 git push
 
+#To update local git folder
+git pull
